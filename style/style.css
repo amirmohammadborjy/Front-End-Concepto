@@ -1,0 +1,107 @@
+:root
+{
+    --NeutralGray-1 : #E9EAEE;
+    --blue : #0D6EFD;
+    --yellow : #FFD24D;
+    --white : #FFFFFF;
+    --dark : #3B3735;
+    --app-bg :#FAF4F2;
+    --dark-btn : #8D8D8D;
+    --newsletter-color: #F8E1DB
+}
+html{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 62.5%; /*10px*/
+    scroll-behavior: smooth;
+}
+*,*::after,*::before
+{
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+body
+{
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "Roboto";
+    background-color: var(--white);
+}
+
+/* Reset Styles */
+
+a{
+    text-decoration: none; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+
+}
+
+.main_header_buttons{
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.main_header_content{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+.main_header_content_input{
+    font-family: "Iranian Sans";
+    font-size: 18px;
+    text-align: right;
+    background-color: var(--NeutralGray-1);
+    width: 439px;
+    height: 48px;
+    border-radius: 12px;
+    padding: 12px;
+    gap: 8px;
+
+}
+.main_header_content_image{
+    
+    width: 198.78px;
+    height: 24px;
+    gap: 10rem;
+}
+
+.header_button{
+    font-family: "Iranian Sans";
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--white);
+    background-color: var(--blue);
+    border-radius: 12px;
+    border: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 184px;
+    height: 48px;
+    gap: 8px;
+}
+.header_menu{
+    
+    
+
+}
+.menu_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+
+}
+.header_menu_item{
+    display: flex;
+    font-family: "Iranian Sans";
+    
+}
