@@ -12,7 +12,7 @@
 html{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    font-size: 62.5%; /*10px*/
+    font-size: 62.5%; 
     scroll-behavior: smooth;
 }
 *,*::after,*::before
@@ -24,11 +24,11 @@ body
 {
     line-height: 1.6;
     font-size: 1.6rem;
-    font-family: "Roboto";
+    font-family: "Iranian Sans";
     background-color: var(--white);
 }
 
-/* Reset Styles */
+
 
 a{
     text-decoration: none; 
@@ -40,7 +40,12 @@ a{
     align-items: center;
 }
 .container{
-
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .main_header_buttons{
@@ -75,6 +80,7 @@ a{
 }
 
 .btn{
+    align-items: center;
     font-family: "Iranian Sans";
     font-size: 18px;
     line-height: 180%;
@@ -122,6 +128,8 @@ a{
     gap: 2rem;
 }
 .btn_with{
+    
+    align-items: center;
     font-family: "Iranian Sans";    
     font-size: 18px;
     line-height: 180%;
@@ -139,3 +147,30 @@ a{
 .content-title{
     font-size: 50px;
 }
+
+.services{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.service{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    direction: rtl;
+}
+.circle{
+    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #FFD24D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
