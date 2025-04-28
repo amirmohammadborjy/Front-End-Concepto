@@ -34,6 +34,7 @@ a{
     text-decoration: none; 
 }
 .header{
+    margin-top:30px;
     font-family: "Iranian Sans";
     display: flex;
     justify-content: space-between;
@@ -174,3 +175,52 @@ a{
     
 }
 
+.profile-card {
+   
+    
+    background: #ffffff;
+    border-radius: 10px;
+    width: 288px;
+    height: 398px;
+    /*max-width: 350px;*/
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+
+
+.stats {
+    margin: 15px ;
+    display: flex;
+    gap: 10px;
+}
+
+.stats div {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.description {
+    color: #555;
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.company-logo{
+   
+}
+.company-image{
+    
+    display: flex;
+    direction: rtl;
+}
+.text-main-card{
+    border: 1px solid var(--dark-btn);
+    border-radius: 10px;
+}
+.main-cards{
+    display: flex;
+    justify-content: space-between;
+}
