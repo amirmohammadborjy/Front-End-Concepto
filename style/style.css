@@ -27,7 +27,9 @@ body
     font-family: "Iranian Sans";
     background-color: var(--white);
 }
-
+*{
+    font-family: "Iranian Sans";
+}
 
 
 a{
@@ -94,11 +96,12 @@ a{
     width: 184px;
     height: 48px;
     gap: 8px;
-}
-.header_menu{
-    
-    
+    cursor: pointer;
 
+}
+.main-caontent{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .menu_list{
     cursor: pointer;
@@ -129,7 +132,7 @@ a{
     gap: 2rem;
 }
 .btn_with{
-    
+    cursor: pointer;
     align-items: center;
     font-family: "Iranian Sans";    
     font-size: 18px;
@@ -221,6 +224,79 @@ a{
     border-radius: 10px;
 }
 .main-cards{
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.top-main-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.category__items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 7;
+    margin: 0 auto;
+    width: 80%;
+}
+.line{
+    background-color: #8D8D8D;
+    width: 80%;
+    height:2px;
+    display: block;
+}
+.top-category{
+    font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+direction: rtl;
+}
+
+.category-items>div>img{
+    border-radius: 50%;
+    border: 2px solid #0D6EFD;
+    width: 50px;
+    height: 50px;
+}
+.category-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   direction: rtl;
+   
+
+}
+
+
+.category-items > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: centern;
+    align-items: center;
+    flex: 30%;   
+}
+.image-card{
+    width: 392px;
+    height: 269;
+    
+}
+.image-card>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-card-cuntent{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category{
+    margin-bottom: 100px;
 }
