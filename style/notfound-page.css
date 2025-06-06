@@ -1,0 +1,16 @@
+.img-notfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-home{
+    width: 204px;
+    height: 56px;
+    background: none;
+    border: 1px solid #0D6EFD;
+    color: #0D6EFD;
+    border-radius: 12px;
+}
+.text-cuntent{
+    text-align: center;
+}

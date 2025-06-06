@@ -8,8 +8,10 @@
     --dark : #3B3735;
     --app-bg :#FAF4F2;
     --dark-btn : #8D8D8D;
-    --newsletter-color: #F8E1DB
+    --newsletter-color: #F8E1DB;
+    --pink: #eb88ff;
 }
+
 html{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -262,6 +264,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    
 }
 .top-main-image{
     display: flex;
@@ -427,6 +430,10 @@ footer div > p{
 .main-cards{
     overflow: hidden;
 }
+.section-cards{
+    overflow: hidden;
+
+}
 .image-right-botton{
     display: flex;
     justify-content: center;
@@ -500,8 +507,8 @@ margin-right: 22px;
     justify-content: space-between;
     align-items: center;
     color: var(--white);
-    margin-left: 120px;
-  margin-right: 120px;
+    margin-left: 100px;
+  margin-right: 100px;
 }
 .card-latest-news{
     width: 392px;
@@ -562,7 +569,7 @@ margin-right: 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .event-card{
     display: flex;
@@ -658,7 +665,90 @@ margin-right: 22px;
     align-items: center;
 }
 .all-cards{
-    background: url(/images/footer.png);
+    
     background-size: cover;
     background-position: center;
+}
+.main-searsh-page{
+    direction: rtl;
+
+}
+
+    
+.main-list-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 80px;
+    margin-left: 200px;
+}
+.top-main-searsh-page>h2{
+    font-size: 32px;
+    margin-right: 35px;
+}
+.bottom-search-page{
+    
+    background-color: #F3F5F6;
+}
+.titlebar{
+    
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.titlebar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    
+}
+.titlebar-right>p{
+    color: #0D6EFD;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main-bottom-search-page{
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.sidebar-item{
+background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+.sidebar-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.border-helper{
+    border-bottom-left-radius:16px ;
+    border-bottom-right-radius:16px ;
+}
+.main-list-item{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.section-cards{
+    background-image: url(../images/footer.png);
+    background-size: cover;
 }

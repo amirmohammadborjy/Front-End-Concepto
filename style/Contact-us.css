@@ -1,0 +1,133 @@
+body{
+    direction: rtl;
+}
+button{
+    cursor: pointer;
+}
+.right-card>div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.heder-line{
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #CBCED7;
+    margin-bottom: 50px;
+}
+.btn-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #0D6EFD;
+    background: none;
+    font-size: 16px;
+    color: #0D6EFD;
+}
+.left-card{
+    width: 247px;
+    height: 230px;
+    border: 1px solid  #CBCED7;
+    border-top-left-radius:12px ;
+    border-bottom-left-radius:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-card{
+    width: 444px;
+    height: 230px;
+    border: 1px solid  #CBCED7;
+    border-top-right-radius:12px ;
+    border-bottom-right-radius:12px;
+    padding-right: 10px;
+}
+.right-card>h4{
+    color: #0D6EFD;
+}
+.card-call{
+
+    background-color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    right: 300px;
+    margin-top: -150px;
+    border-radius: 16px;
+}
+.img-cuntent{
+    position: relative;
+    z-index: 1;
+}
+.input-right>div{
+    width: 296px;
+    height: 48px;
+    border: 1px solid  #CBCED7;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    gap: 8px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.input-right>div>input{
+    border: none;
+    outline: none;
+}
+.input-right>div:hover{
+  border-color: #0D6EFD;
+}
+.input-left>div:hover{
+  border-color: #0D6EFD;
+}
+.input-left>div{
+    width: 834px;
+    height: 192px;
+    border: 1px solid  #CBCED7;
+    border-radius: 12px;
+}
+.input-left>div>input{
+  border: none;
+  outline: none;
+}
+
+.input-form-call{
+    display: flex;
+    justify-content: center;
+   gap: 32px;
+}
+.main-cuntent-bottom{
+    margin-top: 200px;
+}
+.btn-form{
+    width: 170px;
+    height: 48px;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+.button-formcall{
+    display: flex;
+    justify-content: end;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.form-call{
+    width: 1226px;
+    height: 416px;
+    border: 1px solid #CBCED7;
+    border-radius: 16px;
+    padding-right: 60px;
+    margin-bottom: 100px;
+
+}
+.form-call>h4{
+    color: #0D6EFD;
+}
