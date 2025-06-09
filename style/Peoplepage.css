@@ -1,0 +1,220 @@
+.aboutemployee>div{
+    display: flex;
+    
+    align-items: center;
+}
+.profilr-right>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profilr-right{
+    width: 278px;
+    height: 116px;
+    border: 1px solid  #CBCED7; 
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.number{
+    color: #0D6EFD;
+    font-size: 31px;
+    margin: 0px;
+}
+.employee-profiles{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.employee-card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 20px;
+  padding-right: 20px;
+}
+.employee-cuntent{
+    width: 1224px;
+    height: 228px;
+    border-radius: 16px;
+    background-color: white;
+    margin-top: 50px;
+}
+.Employee{
+    background-color: #F3F5F6;
+    height: 2119px;
+ 
+}
+.people-section{
+    width: 808px;
+    height: 1224px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 40px;
+}
+.btn-search{
+    width: 142px;
+    height: 48px;
+    border: 1px solid #E9EAEE;
+    border-radius: 12px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #0F0F0F;
+    
+}
+.input-people{
+    width: 614px;
+    height: 48px;
+    background-color: #E9EAEE;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+}
+.input-people>input{
+    background: none;
+    outline: none;
+    border: none;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding-top: 10px;
+}
+.top-card-right>div>img{
+ width: 64px;
+ height: 64px;
+ border-radius: 64px;
+}
+.top-card-right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.btn-small{
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: 1px solid #AEB2C0;
+    border-radius: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.btn-people{
+    width: 127px;
+    height: 32px;
+    background: none;
+    border: 1px solid #AEB2C0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.top-card-left{
+    display: flex;
+    margin-top: 20px;
+    gap: 8px;
+}
+.people-card-top{
+    display: flex;
+    justify-content: space-between;
+}
+.people-card-bottom>div>div>div{
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #79AEFE;
+}
+.people-card-bottom>div>div{
+    width: auto;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #E4EFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #013075;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.people-card-bottom>div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.people-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.people-card{
+    width: 768px;
+    height: 160px;
+    border: 1px solid #E9EAEE;
+    border-radius: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.footer-card{
+    margin-top: 30px;
+    color: #0D6EFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-section{
+    width: 808px;
+    height: 475px;
+    border-radius: 16px;
+    background-color: white;
+    margin-top: 30px;
+
+}
+.top-admin-sec>div{
+    display: flex;
+    align-items: center;
+}
+.top-admin-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.top-profile-admin{
+    display: flex;
+    align-items: center;
+}
+.admins-about>div>div>img{
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+}
+.admins-about>div{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.admins-about{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+.all-main-people{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
